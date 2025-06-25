@@ -1,10 +1,8 @@
-// ❌ Remove type annotation
+// next.config.ts
 const nextConfig = {
-  eslint: {
-    ignoreDuringBuilds: true,
-  },
-  typescript: {
-    ignoreBuildErrors: true,
+  reactStrictMode: true,
+  experimental: {
+    serverActions: true,
   },
 };
 
