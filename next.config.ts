@@ -1,11 +1,10 @@
-import type { NextConfig } from "next";
-
-const nextConfig: NextConfig = {
+// ❌ Remove type annotation
+const nextConfig = {
   eslint: {
-    ignoreDuringBuilds: true, // disables ESLint build errors
+    ignoreDuringBuilds: true,
   },
   typescript: {
-    ignoreBuildErrors: true, // disables TypeScript build errors
+    ignoreBuildErrors: true,
   },
 };
 
